@@ -1,0 +1,138 @@
+/* ------------------------Global Styles------------------------ */
+
+* {
+    margin: 0;
+    padding: rem;
+}
+
+body {
+    background-color: rgb(88, 10, 40);
+    line-height: 1.5rem;
+    color: rgb(73, 4, 31);
+}
+
+/* ------------------------Header------------------------ */
+
+.header {
+    background-color: rgb(113, 11, 50);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 800px;
+    max-height: 200px;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    padding: 1%;
+}
+
+.header img {
+    width: 140px;
+    height: 190px;
+    border: 6px inset rgb(88, 10, 40);
+    border-radius: 0px 33px / 40px;
+    margin: 0 auto;
+}
+
+.hright {
+    padding: 9%;
+    color: rgb(238, 185, 185);
+    margin: 0 auto;
+}
+
+h1 {
+    font-family:'Caveat',sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+/* ------------------------Main Content------------------------ */
+
+.about {
+    background-color: rgb(222, 201, 201);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1%;
+    text-align: justify;
+}
+
+h2 {
+    padding: 2%;
+}
+
+.about p {
+    padding: 2%;
+}
+
+.main {
+    background-color: rgb(222, 201, 201);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.main p, .main dl {
+    margin-left: 10%;
+    margin-right: 3%;
+}
+.left {
+    width: 85%;
+    margin-right: 2%;
+    padding: 4%;
+}
+
+.right {
+    width: 85%;
+    margin-left: 2%;
+    padding: 4%;
+}
+
+h3 {
+     background-color: rgb(113, 11, 50);
+     padding: 6px;
+     color: rgb(238, 185, 185);
+     border-radius: 0 50px 50px 0;
+}
+
+/* ------------------------Responsive------------------------ */
+
+@media only screen and (max-width: 470px) {
+
+    h1 {
+        font-family:'Caveat',sans-serif;
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+
+    .header img {
+        width: 112px;
+        height: 174px;
+        border: 4px inset rgb(88, 10, 40);
+        border-radius: 0px 33px / 40px;
+        margin: 0 0 0 8px;
+    }
+}
+
+@media only screen and (min-width: 570px) {
+    
+    .main {
+        background-color: rgb(222, 201, 201);
+        display: flex;
+        justify-content: space-around;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 1%;
+    }
+
+    .left {
+        width: 50%;
+        margin-right: 2%;
+        padding: 4%;
+    }
+    
+    
+    .right {
+        width: 50%;
+        margin-left: 2%;
+        padding: 4%;
+    }    
+}
